@@ -55,8 +55,51 @@ Users[1].email;
 // console.log(Object.values(tinderUser));
 
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
+// DESTRUCTURING OF THE OBJECTS
+const course = {
+  coursename: " js in hindi",
+  price:"999",
+  courseInstructor:" jaskirat"
+}
+// course.courseInstructor => general accessing the data form the course object
+
+// const {courseInstructor} = course 
+// console.log(courseInstructor);
+
+// another method 
+const {courseInstructor: instructor}=  course;
+console.log(instructor);
+
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "jaskirat.pvt")
+
+
+/******************************************************** */
+                  /*  API  /*  */
+                  // {
+                  //   "name:":"jaskirat",
+                  //   "coursename": " js ",
+                  //   "price":" too expensive"
+                  // }
+
+// in the APi the keys are also taken as the in the form of the string 
+
+
+// [
+//   {
+
+//   },
+//   {
+
+//   },
+
+// ]
+// another form of the api's in the form of the array of the objects 
 
 
 
