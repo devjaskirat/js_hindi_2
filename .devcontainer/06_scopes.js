@@ -52,3 +52,41 @@ const addThird = function(num)
 {
   return num+2;
 }
+// user.collectingMessage()
+// user.username = "hnji"
+// user.collectingMessage();
+// this refers to the current context 
+// console.log(this);
+// this stores the address of the current object
+
+// function chai()
+// {
+//   console.log(this);
+// }
+
+// chai()
+
+// const chai = function()
+// {
+//   let username = "jaskirat"
+//   console.log(this.username)
+// }
+
+// const chai = () =>
+// {
+//   let username = "jaskirat"
+//   console.log(this)
+// }
+
+
+// chai()
+
+// this simply defines the arro function
+
+
+ const addThird = (num1,num2,num3) =>  (num1+num2+num3)// this is the implicit return
+ // this defines the => operator 
+// if there is a curly braces use the return or 
+// else no need 
+
+console.log(addThird(1,1,1))
